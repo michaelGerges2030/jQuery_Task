@@ -1,0 +1,87 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* home style */
+.home{
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(214, 46, 51 , 0.6);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.homeContent{
+    z-index: 10;
+}
+
+/* open list on lift style */
+.open{
+    background-color: #111111;
+    z-index: 1000;
+    width: 260px;
+}
+.close{
+    right:35px;
+}
+ul a{
+     text-decoration: none;
+     color: aliceblue;
+}
+ul a:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+.openIcn{
+   left:280px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+/* Second section style */
+.details h2{
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+
+}
+.details p{
+    background-color: #ccc;
+    display: none;
+}
+
+/* 
+Third section */
+.count{
+    background-image: url(../imgs/invitation-2508607__340.jpg);
+    z-index: 0;
+}
+.layer2{
+    background-color:rgba(214, 46, 51 , 0.6);
+    z-index: 100;
+}
+.C{
+    border: 1px solid white;
+}
+
+
+/* Last Section */
+.email{
+    color:red;
+}
+.icn{
+    border: solid 0.5px #707070;
+    margin-right: 0.5rem;
+    color: #707070;
+}
+.icons i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
