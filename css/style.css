@@ -80,6 +80,9 @@ Third section */
     margin-right: 0.5rem;
     color: #707070;
 }
+.icons i{
+    transition: 0.75s;
+}
 .icons i:hover{
     color:#fff;
     background-color: #D62E33;
